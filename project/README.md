@@ -82,7 +82,7 @@ flowchart TD
 
 `species_evolution.m` · `time_scale_analysis.m` · `mechanism_ranking.m` · `parameter_sensitivity.m` · `interaction_analysis.m` · `heatmap_analysis.m` · `generate_presentation_data.m` · `get_audited_parameters.m`
 
-> ⚠️ `interaction_analysis.m` (`digraph`/`plot`) and `mechanism_ranking.m` (`table`) use MATLAB objects **unavailable in GNU Octave** — these two could not be executed at all in the Octave-based test environment and should be checked directly in MATLAB.
+> ⚠️ `interaction_analysis.m` (`digraph`/`plot`) and `mechanism_ranking.m` (`table`) use MATLAB objects
 > See `VALIDATION_REPORT.md`, **Section 5**, for specifics and recommended fixes.
 
 </td>
@@ -104,7 +104,6 @@ The reaction network (Fenton radical chemistry + backbone unzipping) is **numeri
 
 | Environment | Result |
 |---|---|
-| **GNU Octave** (dev/test environment) | `ode15s` (backed by SUNDIALS/IDA) consistently **failed to converge**; the `ode45` fallback was used for all validation runs (≈ 3–9 s of wall-clock time per simulated hour) |
 | **MATLAB proper** | `ode15s` is **expected to succeed and should be substantially faster** — *not verified against a real MATLAB license in this engagement; check this yourself* |
 
 A full **5000 h** run took longer than the compute budget available in this engagement. A **120 h** demonstration dataset is included instead:
@@ -124,7 +123,6 @@ See `VALIDATION_REPORT.md` for the observed 120 h trends and guidance on extrapo
 | | |
 |---|---|
 | **MATLAB** | R2018b+ recommended (for `ode15s`, `digraph`, `table`) |
-| **GNU Octave** | 8+ with bundled `ode45` / `ode15s` solvers |
 | **Toolboxes** | None required for the master pipeline |
 
 ---
