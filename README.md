@@ -476,170 +476,7 @@ Every bug identified during development, every fix applied, and the current veri
 
 ---
 
-## 🚦 13. Results Gallery
-
-> Figures below are intentionally empty placeholders — drop in your own simulation output images to complete the gallery.
-
-<table>
-<tr>
-<td width="33%">
-
-```
-┌───────────────────────────┐
-│    Voltage Evolution      │
-│                            │
-│      (Insert Figure)       │
-│                            │
-└───────────────────────────┘
-```
-
-</td>
-<td width="33%">
-
-```
-┌───────────────────────────┐
-│    Species Evolution      │
-│                            │
-│      (Insert Figure)       │
-│                            │
-└───────────────────────────┘
-```
-
-</td>
-<td width="33%">
-
-```
-┌───────────────────────────┐
-│     HF Concentration      │
-│                            │
-│      (Insert Figure)       │
-│                            │
-└───────────────────────────┘
-```
-
-</td>
-</tr>
-<tr>
-<td width="33%">
-
-```
-┌───────────────────────────┐
-│   Sensitivity Analysis    │
-│                            │
-│      (Insert Figure)       │
-│                            │
-└───────────────────────────┘
-```
-
-</td>
-<td width="33%">
-
-```
-┌───────────────────────────┐
-│   Mechanism Ranking       │
-│                            │
-│      (Insert Figure)       │
-│                            │
-└───────────────────────────┘
-```
-
-</td>
-<td width="33%">
-
-```
-┌───────────────────────────┐
-│   Long-term Simulation    │
-│                            │
-│      (Insert Figure)       │
-│                            │
-└───────────────────────────┘
-```
-
-</td>
-</tr>
-<tr>
-<td width="33%">
-
-```
-┌───────────────────────────┐
-│   Interaction Network     │
-│                            │
-│      (Insert Figure)       │
-│                            │
-└───────────────────────────┘
-```
-
-</td>
-<td width="33%">
-
-```
-┌───────────────────────────┐
-│   Pt Degradation           │
-│                            │
-│      (Insert Figure)       │
-│                            │
-└───────────────────────────┘
-```
-
-</td>
-<td width="33%">
-
-```
-┌───────────────────────────┐
-│   Conductivity Decay      │
-│                            │
-│      (Insert Figure)       │
-│                            │
-└───────────────────────────┘
-```
-
-</td>
-</tr>
-<tr>
-<td width="33%">
-
-```
-┌───────────────────────────┐
-│   ECSA Loss                │
-│                            │
-│      (Insert Figure)       │
-│                            │
-└───────────────────────────┘
-```
-
-</td>
-<td width="33%">
-
-```
-┌───────────────────────────┐
-│   Membrane Thickness       │
-│                            │
-│      (Insert Figure)       │
-│                            │
-└───────────────────────────┘
-```
-
-</td>
-<td width="33%">
-
-```
-┌───────────────────────────┐
-│   Hydrogen Crossover      │
-│                            │
-│      (Insert Figure)       │
-│                            │
-└───────────────────────────┘
-```
-
-</td>
-</tr>
-</table>
-
-*Note: `figures/architecture_diagram.png`, `figures/fig1_overview.png`, and `figures/fig2_species.png` already exist in this repository from the audit engagement — these gallery placeholders are for your own extended simulation-output figures on top of those.*
-
----
-
-## 🔬 14. Simulation Pipeline
+## 🔬 13. Simulation Pipeline
 
 ```mermaid
 flowchart LR
@@ -661,7 +498,7 @@ flowchart LR
 
 ---
 
-## ✅ 15. Validation
+## ✅ 14. Validation
 
 <table>
 <tr>
@@ -704,7 +541,7 @@ Full bug-by-bug detail: [`VALIDATION_REPORT.md`](VALIDATION_REPORT.md).
 
 ---
 
-## 🚀 16. Installation
+## 🚀 15. Installation
 
 **Requirements**
 
@@ -749,7 +586,7 @@ A PEMFC generates electricity by oxidizing hydrogen at the anode and reducing ox
 
 ---
 
-## 📚 17. References
+## 📚 16. References
 
 1. Fruhwirt, P., Kregar, A., Törring, J. T., Katrašnik, T., Gescheidt, G. "Holistic approach to chemical degradation of Nafion membranes in fuel cells: modelling and predictions." *Physical Chemistry Chemical Physics*, 22 (2020) 5647–5666.
 2. Darling, R. M., Meyers, J. P. "Kinetic Model of Platinum Dissolution in PEMFCs." *Journal of the Electrochemical Society*, 150 (2003).
