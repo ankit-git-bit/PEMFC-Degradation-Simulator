@@ -39,7 +39,6 @@
 <tr>
 <td align="center" width="140"><a href="#-5-repository-structure"><b>📂<br/>Repository</b></a></td>
 <td align="center" width="140"><a href="#-10-installation"><b>🚀<br/>Quick Start</b></a></td>
-<td align="center" width="140"><a href="#-13-results-gallery"><b>📊<br/>Results</b></a></td>
 <td align="center" width="140"><a href="#-15-validation"><b>✅<br/>Validation</b></a></td>
 <td align="center" width="140"><a href="#-18-references"><b>📚<br/>References</b></a></td>
 </tr>
@@ -532,8 +531,6 @@ OAT sweeps over temperature, Fe concentration, H₂O₂, Pt loading/radius, and 
 </td>
 </tr>
 </table>
-
-> ⚠️ **Known limitation:** the standalone analysis scripts (`species_evolution.m`, `time_scale_analysis.m`, `mechanism_ranking.m`, `parameter_sensitivity.m`, `interaction_analysis.m`, `heatmap_analysis.m`) use their own local, simplified ODE implementations, separate from the master pipeline, and were **not** independently re-verified in this engagement. `mechanism_ranking.m` (`table`) and `interaction_analysis.m` (`digraph`) additionally require MATLAB and could not run in the GNU Octave test environment used for validation.
 
 Full bug-by-bug detail: [`VALIDATION_REPORT.md`](VALIDATION_REPORT.md).
 
